@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Repo Rater",
+    "icon": "./assets/repo-rater.png",
+    "version": "1.0.0",
+    "slug": "repo-rater",
+    "ios": {
+      "bundleIdentifier": "com.syhner.repo-rater",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.syhner.repo-rater",
+      "versionCode": 1
+    }
+  }
+}
