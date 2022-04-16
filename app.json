@@ -1,16 +1,37 @@
 {
   "expo": {
     "name": "Repo Rater",
-    "icon": "./assets/repo-rater.png",
-    "version": "1.0.0",
+    "extra": {
+      "apolloUri": "https://repo-rater.herokuapp.com/graphql"
+    },
     "slug": "repo-rater",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "bundleIdentifier": "com.syhner.repo-rater",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.syhner.reporater",
       "buildNumber": "1.0.0"
     },
     "android": {
-      "package": "com.syhner.repo-rater",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.syhner.reporater",
       "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
     }
   }
 }
