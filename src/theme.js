@@ -5,7 +5,7 @@ const theme = {
     textPrimary: '#24292e',
     textSecondary: '#586069',
     primary: '#0366d6',
-    appBarBackground: '#24292e',
+    appBarBackground: '#000000',
     mainBackground: '#e1e4e8',
     danger: '#d73a4a',
   },
